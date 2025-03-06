@@ -1,0 +1,19 @@
+﻿<Window x:Class="SARTE_Personal_DashBoard.Pages.AddEditTask"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SARTE_Personal_DashBoard.Pages"
+        mc:Ignorable="d"
+        Title="AddTaskForm" Height="400" Width="400" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48*"/>
+            <RowDefinition Height="79*"/>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="tbTaskNameInput" HorizontalAlignment="Left" Margin="47,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="317" Height="81" Grid.RowSpan="2"/>
+        <Label x:Name ="lblAddEdit" Content="Add Task Name:" HorizontalAlignment="Center" Margin="0,76,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="47,52,0,0" VerticalAlignment="Top" Width="317" Background="#FFBEE2C6" Click="btnSave_Click" Grid.Row="1"/>
+
+    </Grid>
+</Window>
