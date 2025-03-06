@@ -9,7 +9,7 @@ namespace SARTE_Personal_DashBoard
     {
         // Declare pages as properties
         ToDoList ToDoListPage { get; set; }
-        Favorites FavoritesPage { get; set; }
+        Favorites Favorites { get; set; }
         Notes NotesPage { get; set; }
         Media MediaPage { get; set; }
 
@@ -18,7 +18,7 @@ namespace SARTE_Personal_DashBoard
             InitializeComponent();
             // Initialize pages once
             ToDoListPage = new ToDoList();
-            FavoritesPage = new Favorites();
+            Favorites = new Favorites();
             NotesPage = new Notes();
             MediaPage = new Media();
         }
@@ -35,10 +35,10 @@ namespace SARTE_Personal_DashBoard
             MainFrame.Content = MediaPage;  // Set the content to MediaPage
         }
 
-        // Handle Favorites button click
+        // Handle FavoritesPage button click
         private void btnFavs_Click(object sender, RoutedEventArgs e)
         {
-            MainFrame.Content = FavoritesPage;  // Set the content to FavoritesPage
+            MainFrame.Content = Favorites;  // Set the content to FavoritesPage
         }
 
         // Handle Notes button click

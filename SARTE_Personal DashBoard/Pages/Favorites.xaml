@@ -5,10 +5,53 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:SARTE_Personal_DashBoard.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="500" d:DesignWidth="800"
       Title="Favorites">
 
     <Grid Background="#FFF1EDE3">
-        
+        <Label Content="My Favorite Art Commissions" HorizontalAlignment="Left" Margin="47,41,0,0" VerticalAlignment="Top" Width="725" Height="48" HorizontalContentAlignment="Center" FontSize="30" Foreground="#FFA35C29" FontFamily="Bradley Hand ITC" VerticalContentAlignment="Center" FontWeight="Bold"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="32,89,0,0" VerticalAlignment="Top" Height="194" Width="183" BorderBrush="{x:Null}" Click="BigPaintingPrice">
+            <Button.Background>
+                <ImageBrush ImageSource="/Pages/7.png"/>
+            </Button.Background>
+            
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="220,89,0,0" VerticalAlignment="Top" Height="194" Width="183" BorderBrush="{x:Null}" Click="CustomPaint">
+            <Button.Background>
+                <ImageBrush ImageSource="/Pages/8.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="407,89,0,0" VerticalAlignment="Top" Height="194" Width="183" BorderBrush="{x:Null}" Click="CustomPaint">
+            <Button.Background>
+                <ImageBrush ImageSource="/Pages/9.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="590,89,0,0" VerticalAlignment="Top" Height="194" Width="184" BorderBrush="{x:Null}" Click="BigPaintingPrice">
+            <Button.Background>
+                <ImageBrush ImageSource="/Pages/10.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="30,283,0,0" VerticalAlignment="Top" Height="195" Width="183" BorderBrush="{x:Null}" Click="BigPaintingPrice">
+            <Button.Background>
+                <ImageBrush ImageSource="/Pages/11.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="218,283,0,0" VerticalAlignment="Top" Height="195" Width="183" BorderBrush="{x:Null}" Click="CustomPaint">
+            <Button.Background>
+                <ImageBrush ImageSource="/Pages/12.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="405,283,0,0" VerticalAlignment="Top" Height="195" Width="183" BorderBrush="{x:Null}" Click="CustomPaint">
+            <Button.Background>
+                <ImageBrush ImageSource="/Pages/13.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="588,283,0,0" VerticalAlignment="Top" Height="195" Width="184" BorderBrush="{x:Null}" Click="BigPaintingPrice">
+            <Button.Background>
+                <ImageBrush ImageSource="/Pages/14.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Click to see painting info" HorizontalAlignment="Left" Margin="47,65,0,0" VerticalAlignment="Top" Width="725" Height="48" HorizontalContentAlignment="Center" FontSize="20" Foreground="#FFA35C29" VerticalContentAlignment="Center"/>
+
     </Grid>
 </Page>

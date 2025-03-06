@@ -3,43 +3,44 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Ellee's Dashboard" Height="700" Width="1200" WindowStartupLocation="CenterScreen">
     <Grid Background="#FFF1EDE3">
-        <!-- Set the background color of the window -->
-        <!-- Custom Title Bar -->
+      
         <Rectangle HorizontalAlignment="Left" Height="612" Margin="0,69,0,0" VerticalAlignment="Top" Width="406" Fill="White"/>
-        <!-- Custom Title Bar -->
+        
         <Grid Background="#FF7D6639" Height="69" VerticalAlignment="Top">
             <Button HorizontalAlignment="Right" VerticalAlignment="Center" Width="40" Height="40" Background="Transparent" BorderBrush="Transparent"/>
             <Rectangle HorizontalAlignment="Left" Height="661" Margin="396,69,0,0" VerticalAlignment="Top" Width="804" Fill="#FFF1EDE3"/>
         </Grid>
         <Button x:Name="btnToDoList" Content="" BorderBrush="{x:Null}" Margin="525,104,403,331" Click="btnToDoList_Click">
             <Button.Background>
-                <ImageBrush ImageSource="1.png"/>
-            </Button.Background>
-        </Button>
-        <Button x:Name="btnFavs" Content="" BorderBrush="{x:Null}" Margin="525,371,403,64" Click="btnFavs_Click">
-            <Button.Background>
-                <ImageBrush ImageSource="3.png"/>
+                <ImageBrush ImageSource="/1.png"/>
             </Button.Background>
         </Button>
         <Button x:Name="btnNotes" Content="" BorderBrush="{x:Null}" Margin="832,371,96,64" Click="btnNotes_Click">
             <Button.Background>
-                <ImageBrush ImageSource="2.png"/>
+                <ImageBrush ImageSource="/2.png"/>
             </Button.Background>
         </Button>
         <Button x:Name="btnMedia" Content="" BorderBrush="{x:Null}" Margin="832,104,96,331" Click="btnMedia_Click">
             <Button.Background>
-                <ImageBrush ImageSource="4.png"/>
+                <ImageBrush ImageSource="/4.png"/>
             </Button.Background>
         </Button>
         <Image HorizontalAlignment="Left" Height="294" Margin="70,203,0,0" VerticalAlignment="Top" Width="276" Source="/5.png"/>
         <TextBlock HorizontalAlignment="Left" Margin="75,479,0,0" TextWrapping="Wrap" Text="Ellee's Dashboard" VerticalAlignment="Top" Height="54" Width="331" FontSize="35" FontFamily="Ink Free" Foreground="#FF4D410E"/>
 
-        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Margin="406,69,0,0" />
-
+       
         <Button x:Name="btnNHome" Content="Home" HorizontalAlignment="Left" Margin="501,22,0,0" VerticalAlignment="Top" Width="113" BorderBrush="{x:Null}" Height="30" Click="btnNHome_Click" Background="{x:Null}" Foreground="#FFF7F7F7"/>
         <Button x:Name="btnNToDoList" Content="To Do List" HorizontalAlignment="Left" Margin="623,22,0,0" VerticalAlignment="Top" Width="113" BorderBrush="{x:Null}" Height="30" Click="btnToDoList_Click" Background="{x:Null}" Foreground="#FFF7F7F7"/>
         <Button x:Name="btnNFavorites" Content="Favorites" HorizontalAlignment="Left" Margin="743,22,0,0" VerticalAlignment="Top" Width="111" BorderBrush="{x:Null}" Height="30" Click="btnFavs_Click" Background="{x:Null}" Foreground="#FFF7F7F7"/>
         <Button x:Name="btnNMedia" Content="Media" HorizontalAlignment="Left" Margin="865,22,0,0" VerticalAlignment="Top" Width="113" BorderBrush="{x:Null}" Height="30" Click="btnMedia_Click" Background="{x:Null}" Foreground="#FFF7F7F7"/>
         <Button x:Name="btnNNotes" Content="Notes" HorizontalAlignment="Left" Margin="992,22,0,0" VerticalAlignment="Top" Width="112" BorderBrush="{x:Null}" Height="30" Click="btnNotes_Click" Background="{x:Null}" Foreground="#FFF7F7F7"/>
+        <Button x:Name="btnFavorites" Content="" BorderBrush="{x:Null}" Margin="526,377,402,58" Click="btnFavs_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/3.png"/>
+            </Button.Background>
+        </Button>
+
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Margin="406,69,0,0" />
+
     </Grid>
 </Window>

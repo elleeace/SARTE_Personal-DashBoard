@@ -167,5 +167,38 @@
   <ItemGroup>
     <Resource Include="Pages\Add a heading %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pages\photo_2024-02-10_10-41-38.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pages\be one  become one %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pages\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pages\8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pages\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pages\10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pages\11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pages\12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pages\13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pages\14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pages\Untitled %28800 x 450 px%29 %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
